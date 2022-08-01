@@ -104,6 +104,9 @@ public class ATM {
             case 4:
                 ATM.transferFunds(theUser, sc);
                 break;
+            case 5:
+                sc.nextLine();
+                break;
         }
 
         //redisplay this menu unless the user wants to quit
